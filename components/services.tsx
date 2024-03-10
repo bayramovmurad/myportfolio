@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 
 const Services = () => {
     return (
-        <div className="p-6 md:px-12 md:py-24 max-w-5xl mx-auto" id="services">
+        <div className="p-6 md:px-12 max-w-5xl mx-auto" id="services">
             <Title title="Services" subtitle="What do I offer?" />
 
             <div className="flex justify-center mt-6">

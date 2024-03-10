@@ -1,4 +1,4 @@
-import { BellPlus, BookText, Briefcase, Brush, CodeSquare, Home, Mail, PanelsTopLeft, UserRound, UsersRound, Wrench } from "lucide-react";
+import { BookText, Briefcase, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench,Expand } from "lucide-react";
 
 
 export const itemsNavbar = [
@@ -16,18 +16,24 @@ export const itemsNavbar = [
     },
     {
         id: 3,
+        title: "skills",
+        icon: <Expand size={20} />,
+        link: "#experience",
+    },
+    {
+        id: 4,
         title: "Book",
         icon: <BookText size={20} />,
         link: "#services",
     },
     {
-        id: 4,
+        id: 5,
         title: "Target",
         icon: <CodeSquare size={20} />,
         link: "#portfolio",
     },
     {
-        id: 5,
+        id: 6,
         title: "Home",
         icon: <Mail size={20} />,
         link: "#contact",
@@ -199,5 +205,54 @@ export const dataServices = [
                 name: "Ongoing maintenance and support",
             },
         ],
+    },
+];
+
+export const dataPortfolio = [
+    {
+        id: 1,
+        title: "Foody e-commerce website",
+        image: "/portfolio-1.png",
+        urlGithub: "https://github.com/bayramovmurad/foodyApp",
+        urlDemo: "https://foody-ten-mu.vercel.app/",
+    },
+    {
+        id: 2,
+        title: "Realtime Chat App",
+        image: "/portfolio-2.png",
+        urlGithub: "https://github.com/bayramovmurad/realtimeChatApp-mernstack",
+        urlDemo: "https://realtimechatapp-mernstack.onrender.com/",
+    },
+    {
+        id: 3,
+        title: "Post App",
+        image: "/portfolio-3.png",
+        urlGithub: "https://github.com/bayramovmurad/post-app-React",
+        urlDemo: "post-app-gamma.vercel.app",
+    },
+
+];
+
+export const dataContact = [
+    {
+        id: 1,
+        title: "Phone",
+        subtitle: "+994503324844",
+        link: "tel:+994503324844",
+        icon: <Phone />,
+    },
+    {
+        id: 2,
+        title: "Github",
+        subtitle: "github.com/bayramovmurad",
+        link: "github.com/bayramovmurad",
+        icon: <Code2 />,
+    },
+    {
+        id: 3,
+        title: "Email",
+        subtitle: "email@email.com",
+        link: "mbayramov340@gmail.com",
+        icon: <Inbox />,
     },
 ];

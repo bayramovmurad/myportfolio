@@ -196,7 +196,7 @@ export const dataServices = [
                 name: "SEO Optimization",
             },
             {
-                name: "Veb proqramların inkişafı",
+                name: "Web application development",
             },
             {
                 name: "E-commerce Website",
